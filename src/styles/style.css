@@ -1,4 +1,4 @@
-/*-----------------RESET CSS----------------------*/
+/* -----------------RESET CSS---------------------- */
 
 html {
   box-sizing: border-box;
@@ -28,9 +28,9 @@ img {
   height: auto;
 }
 
-/*---------------END RESET------------------*/
+/* ---------------END RESET------------------ */
 
-/*---------------GENERAL STYLE------------------*/
+/* ---------------GENERAL STYLE------------------ */
 
 :root {
   --white: #fff;
@@ -111,9 +111,9 @@ p {
   margin: 0 auto;
 }
 
-/*---------------END GENERAL STYLE------------------*/
+/* --------------END GENERAL STYLE------------------ */
 
-/*---------------------------HEADER--------------------------*/
+/* ---------------------------HEADER-------------------------- */
 
 .header-content {
   position: relative;
@@ -167,9 +167,9 @@ p {
   background-color: #ea7600;
 }
 
-/*------------------- END HEADER ----------------------------------------*/
+/* ------------------- END HEADER ---------------------------------------- */
 
-/*------------------- VIDEO SECTION -------------------------------------*/
+/* ------------------- VIDEO SECTION ------------------------------------- */
 
 .video-content {
   text-align: center;
@@ -196,9 +196,9 @@ p {
   vertical-align: middle;
 }
 
-/*------------------- END VIDEO SECTION -------------------------------------*/
+/* ------------------- END VIDEO SECTION ------------------------------------- */
 
-/*------------------- NAVIGATION SECTION -------------------------------------*/
+/* ------------------- NAVIGATION SECTION ------------------------------------- */
 
 .navigation {
   background-color: var(--primary-dark);
@@ -276,9 +276,9 @@ p {
   margin: 0;
 }
 
-/*------------------- END NAVIGATION SECTION -------------------------------------*/
+/* ------------------- END NAVIGATION SECTION --------------------------------- */
 
-/*------------------- IKEA-EFFECT SECTION -------------------------------------*/
+/* ------------------- IKEA-EFFECT SECTION ------------------------------------- */
 
 .column-2 {
   display: flex;
@@ -339,9 +339,9 @@ p {
   break-inside: avoid;
 }
 
-/*-------------------END IKEA-EFFECT SECTION -------------------------------------*/
+/* -------------------END IKEA-EFFECT SECTION -------------------------- */
 
-/*-----------------PREMATURE-OPTIMIZATION SECTION-----------------------*/
+/* ----------------PREMATURE-OPTIMIZATION SECTION----------------------- */
 
 .premature-content p {
   color: var(--white);
@@ -409,9 +409,9 @@ p {
   break-inside: avoid;
 }
 
-/*----------------END PREMATURE-OPTIMIZATION SECTION-----------------------*/
+/* ----------------END PREMATURE-OPTIMIZATION SECTION----------------------- */
 
-/*----------------DISTORTION-OF-NOVELTY SECTION-----------------------------*/
+/* ----------------DISTORTION-OF-NOVELTY SECTION----------------------------- */
 
 .distortion-of-novelty {
   position: relative;
@@ -475,9 +475,9 @@ p {
   break-inside: avoid;
 }
 
-/*----------------END DISTORTION-OF-NOVELTY SECTION-----------------------------*/
+/* ----------------END DISTORTION-OF-NOVELTY SECTION----------------------------- */
 
-/*----------------HYPERBOLIC-DEPRECIATION SECTION------------------------------*/
+/* ----------------HYPERBOLIC-DEPRECIATION SECTION------------------------------ */
 
 .hyperbolic-depreciation {
   background-color: var(--brown);
@@ -541,9 +541,9 @@ p {
   break-inside: avoid;
 }
 
-/*---------------END HYPERBOLIC-DEPRECIATION SECTION-----------------------------*/
+/* ---------------END HYPERBOLIC-DEPRECIATION SECTION------------------------ */
 
-/*----------------ERRORS-IN-PLANNING SECTION---------------------------------*/
+/* ----------------ERRORS-IN-PLANNING SECTION--------------------------------- */
 
 .errors-in-planning {
   position: relative;
@@ -607,7 +607,7 @@ p {
   break-inside: avoid;
 }
 
-/*--------------END ERRORS-IN-PLANNING SECTION-----------------------------*/
+/* --------------END ERRORS-IN-PLANNING SECTION----------------------------- */
 
 /* ----------------------------FOOTER SECTION---------------------------- */
 
