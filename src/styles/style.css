@@ -55,6 +55,7 @@ img {
   font-family: OpenSans;
   src: url("../fonts/OpenSans/OpenSans-Regular.ttf");
 }
+
 h1,
 h2,
 h3,
@@ -109,6 +110,10 @@ p {
   padding-top: 100px;
   padding-bottom: 100px;
   margin: 0 auto;
+}
+
+.column-2 {
+  display: flex;
 }
 
 /* --------------END GENERAL STYLE------------------ */
@@ -280,10 +285,6 @@ p {
 
 /* ------------------- IKEA-EFFECT SECTION ------------------------------------- */
 
-.column-2 {
-  display: flex;
-}
-
 .ikea-title {
   margin-left: 30px;
 }
@@ -352,10 +353,6 @@ p {
   position: relative;
 }
 
-.column-2 {
-  display: flex;
-}
-
 .premature-title {
   margin-right: 30px;
 }
@@ -415,10 +412,6 @@ p {
 
 .distortion-of-novelty {
   position: relative;
-}
-
-.column-2 {
-  display: flex;
 }
 
 .distortion-title {
@@ -484,10 +477,6 @@ p {
   position: relative;
 }
 
-.column-2 {
-  display: flex;
-}
-
 .hyperbolic-title {
   margin-right: 30px;
 }
@@ -547,10 +536,6 @@ p {
 
 .errors-in-planning {
   position: relative;
-}
-
-.column-2 {
-  display: flex;
 }
 
 .errors-title {
