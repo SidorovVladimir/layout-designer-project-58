@@ -1,3 +1,4 @@
+
 /* -----------------RESET CSS---------------------- */
 
 html {
@@ -130,6 +131,35 @@ p {
   color: var(--white);
   margin: 0;
 }
+
+.subtitle-text-dark {
+  font-size: 34px;
+  line-height: 1.2em;
+  color: var(--dark);
+  font-family: Neucha, sans-serif;
+}
+
+.suptitle-text-semi-dark {
+  font-size: 24px;
+  line-height: 1.2em;
+  color: var(--semi-transparent-dark);
+  margin: 0;
+}
+
+.subtitle-text-white {
+  font-size: 34px;
+  line-height: 1.2em;
+  color: var(--white);
+  font-family: Neucha, sans-serif;
+}
+
+.suptitle-text-translucent-white {
+  font-size: 24px;
+  line-height: 1.2em;
+  color: var(--translucent-white);
+  margin: 0;
+}
+
 /* --------------END GENERAL STYLE------------------ */
 
 /* ---------------------------HEADER-------------------------- */
@@ -239,6 +269,7 @@ p {
   margin-right: 30px;
   margin-bottom: 20px;
 }
+
 .w-350:nth-child(3n) {
   margin-right: 0;
 }
@@ -249,6 +280,10 @@ p {
 
 .card:hover {
   background-color: var(--primary);
+}
+
+.card-text {
+  margin: 0;
 }
 
 .card:hover .card-text {
@@ -289,10 +324,6 @@ p {
   color: var(--white);
 }
 
-.card-text {
-  margin: 0;
-}
-
 /* ------------------- END NAVIGATION SECTION --------------------------------- */
 
 /* ------------------- IKEA-EFFECT SECTION ------------------------------------- */
@@ -303,20 +334,6 @@ p {
 
 .ikea-title h2 {
   color: var(--dark);
-}
-
-.ikea-title p {
-  font-size: 34px;
-  line-height: 1.2em;
-  color: var(--dark);
-  font-family: Neucha, sans-serif;
-}
-
-.ikea-title p:first-child {
-  font-size: 24px;
-  line-height: 1.2em;
-  color: var(--semi-transparent-dark);
-  margin: 0;
 }
 
 .ikea-image {
@@ -360,20 +377,6 @@ p {
   color: var(--white);
 }
 
-.premature-title p {
-  font-size: 34px;
-  line-height: 1.2em;
-  color: var(--white);
-  font-family: Neucha, sans-serif;
-}
-
-.premature-title p:first-child {
-  font-size: 24px;
-  line-height: 1.2em;
-  color: var(--translucent-white);
-  margin: 0;
-}
-
 .premature-image {
   vertical-align: middle;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
@@ -410,20 +413,6 @@ p {
   color: var(--dark);
 }
 
-.distortion-title p {
-  font-size: 34px;
-  line-height: 1.2em;
-  color: #2a2626;
-  font-family: Neucha, sans-serif;
-}
-
-.distortion-title p:first-child {
-  font-size: 24px;
-  line-height: 1.2em;
-  color: var(--semi-transparent-dark);
-  margin: 0;
-}
-
 .distortion-image {
   vertical-align: middle;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
@@ -440,7 +429,6 @@ p {
   font-family: OpenSans, sans-serif;
   font-weight: 700;
   font-size: 14px;
-
   color: var(--white);
   text-transform: uppercase;
 }
@@ -512,20 +500,6 @@ p {
   color: var(--dark);
 }
 
-.errors-title p {
-  font-size: 34px;
-  line-height: 1.2em;
-  color: var(--dark);
-  font-family: Neucha, sans-serif;
-}
-
-.errors-title p:first-child {
-  font-size: 24px;
-  line-height: 1.2em;
-  color: var(--semi-transparent-dark);
-  margin: 0;
-}
-
 .errors-image {
   vertical-align: middle;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
@@ -563,7 +537,8 @@ p {
   margin-top: 60px;
 }
 
-.contact-info p,
+.contact-info .author,
+.article-content,
 a {
   font-size: 14px;
   font-family: OpenSans, sans-serif;
@@ -573,16 +548,18 @@ a {
   color: var(--white);
 }
 
-.footer-form p {
+.footer-form .email {
   color: var(--white);
   font-size: 18px;
   margin-bottom: 9px;
   margin-top: 0;
 }
 
-.footer-form p:last-child {
+.footer-form .service {
   font-size: 12px;
   margin-bottom: 0;
+  color: var(--white);
+  margin-top: 0;
 }
 
 .footer-form .footer-link {
