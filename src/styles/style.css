@@ -1,4 +1,4 @@
- /*-----------------RESET CSS----------------------*/ 
+/*-----------------RESET CSS----------------------*/
 
 html {
   box-sizing: border-box;
@@ -28,9 +28,9 @@ img {
   height: auto;
 }
 
- /*---------------END RESET------------------*/ 
+/*---------------END RESET------------------*/
 
- /*---------------GENERAL STYLE------------------*/ 
+/*---------------GENERAL STYLE------------------*/
 
 :root {
   --white: #fff;
@@ -49,6 +49,7 @@ img {
   font-family: Neucha;
   src: url("../fonts/Neucha/Neucha-Regular.ttf");
 }
+
 @font-face {
   font-weight: 400;
   font-family: OpenSans;
@@ -65,12 +66,15 @@ h6 {
   color: var(--primary);
   font-weight: 400;
 }
+
 h1 {
   font-size: 72px;
 }
+
 h2 {
   font-size: 60px;
 }
+
 h3 {
   font-size: 34px;
 }
@@ -99,6 +103,7 @@ p {
   width: 100%;
   height: 100%;
 }
+
 .container {
   width: 1110px;
   padding-top: 100px;
@@ -106,13 +111,14 @@ p {
   margin: 0 auto;
 }
 
- /*---------------END GENERAL STYLE------------------*/ 
+/*---------------END GENERAL STYLE------------------*/
 
- /*---------------------------HEADER--------------------------*/ 
+/*---------------------------HEADER--------------------------*/
 
 .header-content {
   position: relative;
 }
+
 .header-title {
   margin-bottom: 185px;
 }
@@ -124,6 +130,7 @@ p {
   top: 55px;
   right: -270px;
 }
+
 .d-flex {
   display: flex;
   justify-content: space-between;
@@ -136,9 +143,11 @@ p {
 .header-text p:last-child {
   margin-bottom: 0;
 }
+
 .header-title span {
   color: var(--dark);
 }
+
 .btn a {
   text-decoration: none;
   padding: 12px 24px;
@@ -147,18 +156,20 @@ p {
   font-weight: 700;
   font-family: OpenSans, sans-serif;
 }
+
 .btn {
   display: flex;
   margin-left: 570px;
   margin-top: 40px;
 }
+
 .btn a:hover {
   background-color: #ea7600;
 }
 
- /*------------------- END HEADER ----------------------------------------*/ 
+/*------------------- END HEADER ----------------------------------------*/
 
- /*------------------- VIDEO SECTION -------------------------------------*/ 
+/*------------------- VIDEO SECTION -------------------------------------*/
 
 .video-content {
   text-align: center;
@@ -166,12 +177,15 @@ p {
   position: relative;
   top: 100px;
 }
+
 .video-title {
   margin-bottom: 30px;
 }
+
 .video-title span {
   color: var(--dark);
 }
+
 .video-subtitle {
   color: var(--dark);
   margin-bottom: 30px;
@@ -182,23 +196,26 @@ p {
   vertical-align: middle;
 }
 
- /*------------------- END VIDEO SECTION -------------------------------------*/ 
+/*------------------- END VIDEO SECTION -------------------------------------*/
 
- /*------------------- NAVIGATION SECTION -------------------------------------*/ 
+/*------------------- NAVIGATION SECTION -------------------------------------*/
 
 .navigation {
   background-color: var(--primary-dark);
   padding-top: 100px;
   width: 100%;
 }
+
 .navigation-content {
   padding-bottom: 80px;
 }
+
 .row {
   display: flex;
 
   flex-wrap: wrap;
 }
+
 .w-350 {
   width: 350px;
   margin-right: 30px;
@@ -211,15 +228,19 @@ p {
 .card {
   background-color: var(--light);
 }
+
 .card:hover {
   background-color: var(--primary);
 }
+
 .card:hover .link p {
   color: #fff;
 }
+
 .card:hover .link h2 {
   color: #fff;
 }
+
 .card:hover .link h3 {
   color: #fff;
 }
@@ -230,12 +251,15 @@ p {
   height: 100%;
   padding: 24px;
 }
+
 .navigation-title {
   font-size: 52px;
 }
+
 .navigation-title span {
   color: var(--white);
 }
+
 .card h2 {
   font-size: 64px;
   line-height: 1;
@@ -247,33 +271,39 @@ p {
 .card h3 {
   margin-bottom: 16px;
 }
+
 .card p {
   margin: 0;
 }
 
- /*------------------- END NAVIGATION SECTION -------------------------------------*/ 
+/*------------------- END NAVIGATION SECTION -------------------------------------*/
 
- /*------------------- IKEA-EFFECT SECTION -------------------------------------*/ 
+/*------------------- IKEA-EFFECT SECTION -------------------------------------*/
 
 .column-2 {
   display: flex;
 }
+
 .ikea-title {
   margin-left: 30px;
 }
+
 .ikea-text {
   column-count: 2;
   column-gap: 30px;
 }
+
 .ikea-title h2 {
   color: var(--dark);
 }
+
 .ikea-title p {
   font-size: 34px;
   line-height: 1.2em;
   color: var(--dark);
   font-family: Neucha, sans-serif;
 }
+
 .ikea-title p:first-child {
   font-size: 24px;
   line-height: 1.2em;
@@ -286,6 +316,7 @@ p {
   vertical-align: middle;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
+
 .ikea-subtitle {
   margin-top: 100px;
   margin-bottom: 20px;
@@ -293,6 +324,7 @@ p {
 
   padding: 5px 10px;
 }
+
 .ikea-subtitle h3 {
   font-family: OpenSans, sans-serif;
   font-weight: 700;
@@ -300,15 +332,16 @@ p {
   text-transform: uppercase;
   color: var(--white);
 }
+
 .ikea-text p {
   color: var(--dark);
   margin: 0;
   break-inside: avoid;
 }
 
- /*-------------------END IKEA-EFFECT SECTION -------------------------------------*/ 
+/*-------------------END IKEA-EFFECT SECTION -------------------------------------*/
 
- /*-----------------PREMATURE-OPTIMIZATION SECTION-----------------------*/ 
+/*-----------------PREMATURE-OPTIMIZATION SECTION-----------------------*/
 
 .premature-content p {
   color: var(--white);
@@ -322,27 +355,31 @@ p {
 .column-2 {
   display: flex;
 }
+
 .premature-title {
   margin-right: 30px;
 }
+
 .premature-text {
   column-count: 2;
   column-gap: 30px;
 }
+
 .premature-title h2 {
   color: var(--white);
 }
+
 .premature-title p {
   font-size: 34px;
   line-height: 1.2em;
   color: var(--white);
   font-family: Neucha, sans-serif;
 }
+
 .premature-title p:first-child {
   font-size: 24px;
   line-height: 1.2em;
   color: var(--translucent-white);
-
   margin: 0;
 }
 
@@ -350,58 +387,64 @@ p {
   vertical-align: middle;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
+
 .premature-subtitle {
   margin-top: 100px;
   margin-bottom: 20px;
   background-color: var(--white);
-
   padding: 5px 10px;
 }
+
 .premature-subtitle h3 {
   font-family: OpenSans, sans-serif;
   font-weight: 700;
   font-size: 14px;
-
   text-transform: uppercase;
   color: var(--brown);
 }
+
 .premature-text p {
   color: var(--white);
   margin: 0;
   break-inside: avoid;
 }
 
- /*----------------END PREMATURE-OPTIMIZATION SECTION-----------------------*/ 
+/*----------------END PREMATURE-OPTIMIZATION SECTION-----------------------*/
 
- /*----------------DISTORTION-OF-NOVELTY SECTION-----------------------------*/ 
+/*----------------DISTORTION-OF-NOVELTY SECTION-----------------------------*/
 
 .distortion-of-novelty {
   position: relative;
 }
+
 .column-2 {
   display: flex;
 }
+
 .distortion-title {
   margin-left: 30px;
 }
+
 .distortion-text {
   column-count: 2;
   column-gap: 30px;
 }
+
 .distortion-title h2 {
   color: var(--dark);
 }
+
 .distortion-title p {
   font-size: 34px;
   line-height: 1.2em;
   color: #2a2626;
   font-family: Neucha, sans-serif;
 }
+
 .distortion-title p:first-child {
   font-size: 24px;
   line-height: 1.2em;
   color: var(--semi-transparent-dark);
-
   margin: 0;
 }
 
@@ -409,12 +452,14 @@ p {
   vertical-align: middle;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
+
 .distortion-subtitle {
   margin-top: 100px;
   margin-bottom: 20px;
   background-color: var(--brown);
   padding: 5px 10px;
 }
+
 .distortion-subtitle h3 {
   font-family: OpenSans, sans-serif;
   font-weight: 700;
@@ -423,15 +468,16 @@ p {
   color: var(--white);
   text-transform: uppercase;
 }
+
 .distortion-text p {
   color: var(--dark);
   margin: 0;
   break-inside: avoid;
 }
 
- /*----------------END DISTORTION-OF-NOVELTY SECTION-----------------------------*/ 
+/*----------------END DISTORTION-OF-NOVELTY SECTION-----------------------------*/
 
- /*----------------HYPERBOLIC-DEPRECIATION SECTION------------------------------*/ 
+/*----------------HYPERBOLIC-DEPRECIATION SECTION------------------------------*/
 
 .hyperbolic-depreciation {
   background-color: var(--brown);
@@ -441,27 +487,31 @@ p {
 .column-2 {
   display: flex;
 }
+
 .hyperbolic-title {
   margin-right: 30px;
 }
+
 .hyperbolic-text {
   column-count: 2;
   column-gap: 30px;
 }
+
 .hyperbolic-title h2 {
   color: var(--white);
 }
+
 .hyperbolic-title p {
   font-size: 34px;
   line-height: 1.2em;
   color: var(--white);
   font-family: Neucha, sans-serif;
 }
+
 .hyperbolic-title p:first-child {
   font-size: 24px;
   line-height: 1.2em;
   color: #d7ccc0;
-
   margin: 0;
 }
 
@@ -469,17 +519,18 @@ p {
   vertical-align: middle;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
+
 .hyperbolic-subtitle {
   margin-top: 100px;
   margin-bottom: 20px;
   background-color: var(--white);
   padding: 5px 10px;
 }
+
 .hyperbolic-subtitle h3 {
   font-family: OpenSans, sans-serif;
   font-weight: 700;
   font-size: 14px;
-
   text-transform: uppercase;
   color: var(--brown);
 }
@@ -490,37 +541,42 @@ p {
   break-inside: avoid;
 }
 
- /*---------------END HYPERBOLIC-DEPRECIATION SECTION-----------------------------*/ 
+/*---------------END HYPERBOLIC-DEPRECIATION SECTION-----------------------------*/
 
- /*----------------ERRORS-IN-PLANNING SECTION---------------------------------*/ 
+/*----------------ERRORS-IN-PLANNING SECTION---------------------------------*/
 
 .errors-in-planning {
   position: relative;
 }
+
 .column-2 {
   display: flex;
 }
+
 .errors-title {
   margin-left: 30px;
 }
+
 .errors-text {
   column-count: 2;
   column-gap: 30px;
 }
+
 .errors-title h2 {
   color: var(--dark);
 }
+
 .errors-title p {
   font-size: 34px;
   line-height: 1.2em;
   color: var(--dark);
   font-family: Neucha, sans-serif;
 }
+
 .errors-title p:first-child {
   font-size: 24px;
   line-height: 1.2em;
   color: var(--semi-transparent-dark);
-
   margin: 0;
 }
 
@@ -528,17 +584,18 @@ p {
   vertical-align: middle;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
+
 .errors-subtitle {
   margin-top: 100px;
   margin-bottom: 20px;
   background-color: var(--brown);
   padding: 5px 10px;
 }
+
 .errors-subtitle h3 {
   font-family: OpenSans, sans-serif;
   font-weight: 700;
   font-size: 14px;
-
   color: var(--white);
   text-transform: uppercase;
 }
@@ -550,9 +607,9 @@ p {
   break-inside: avoid;
 }
 
- /*--------------END ERRORS-IN-PLANNING SECTION-----------------------------*/ 
+/*--------------END ERRORS-IN-PLANNING SECTION-----------------------------*/
 
- /* ----------------------------FOOTER SECTION---------------------------- */ 
+/* ----------------------------FOOTER SECTION---------------------------- */
 
 .flex {
   display: flex;
@@ -561,12 +618,14 @@ p {
   padding: 55px;
   align-items: center;
 }
+
 input {
   height: 50px;
   width: 423px;
   padding: 15px;
   border: none;
 }
+
 .button {
   height: 50px;
   width: 70px;
@@ -576,9 +635,11 @@ input {
   background-color: var(--primary);
   position: relative;
 }
+
 .button:hover {
   background-color: #ea7600;
 }
+
 .button::before {
   position: absolute;
   width: 100%;
@@ -597,29 +658,35 @@ input {
   margin-bottom: 9px;
   margin-top: 0;
 }
+
 .form p:last-child {
   font-size: 12px;
   margin-bottom: 0;
 }
+
 .form a {
   color: var(--white);
 }
+
 .text-box {
   display: flex;
   margin: 0;
   padding: 0;
 }
+
 .flex h3 {
   color: var(--white);
 }
+
 .contact-info {
   text-align: center;
   margin-top: 60px;
 }
+
 .contact-info p,
 a {
   font-size: 14px;
   font-family: OpenSans, sans-serif;
 }
 
- /* ---------------------------END FOOTER SECTION---------------------------- */ 
+/* ---------------------------END FOOTER SECTION---------------------------- */
