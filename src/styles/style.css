@@ -1,13 +1,15 @@
 /** CSS STYLE **/
+
 /*-----------------RESET CSS----------------------*/
+
 html {
   box-sizing: border-box;
   font-size: 16px;
 }
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -31,6 +33,7 @@ img {
 /*---------------END RESET------------------*/
 
 /*---------------GENERAL STYLE------------------*/
+
 :root {
   --white: #fff;
   --translucent-white: #d7ccc0;
@@ -105,9 +108,9 @@ p {
   margin: 0 auto;
 }
 
-/*---------------END GENERAL STYLE------------------*/
+ /*---------------END GENERAL STYLE------------------*/
 
-/*---------------------------HEADER--------------------------*/
+ /*---------------------------HEADER--------------------------*/
 
 .header-content {
   position: relative;
@@ -154,6 +157,7 @@ p {
 .btn a:hover {
   background-color: #ea7600;
 }
+
 /*------------------- END HEADER ----------------------------------------*/
 
 /*------------------- VIDEO SECTION -------------------------------------*/
@@ -303,6 +307,7 @@ p {
   margin: 0;
   break-inside: avoid;
 }
+
 /*-------------------END IKEA-EFFECT SECTION -------------------------------------*/
 
 /*-----------------PREMATURE-OPTIMIZATION SECTION-----------------------*/
@@ -425,6 +430,7 @@ p {
   margin: 0;
   break-inside: avoid;
 }
+
 /*----------------END DISTORTION-OF-NOVELTY SECTION-----------------------------*/
 
 /*----------------HYPERBOLIC-DEPRECIATION SECTION------------------------------*/
@@ -545,6 +551,7 @@ p {
   padding-bottom: 16px;
   break-inside: avoid;
 }
+
 /*--------------END ERRORS-IN-PLANNING SECTION-----------------------------*/
 
 /* ----------------------------FOOTER SECTION---------------------------- */
@@ -616,4 +623,6 @@ a {
   font-size: 14px;
   font-family: OpenSans, sans-serif;
 }
+
 /* ---------------------------END FOOTER SECTION---------------------------- */
+
